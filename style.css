@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    position: relative;
+    width:500px;
+    height:50px;
+    border:2px solid black;
+    border-radius: 60px;
+    overflow: hidden;
+}
+.progress{
+    width:40%;
+    height:100%;
+    background-color: greenyellow;
+}
+#percent{
+    position: absolute;
+    top:30%;
+    right:5px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    transform: rotateY(-50%);
+}
